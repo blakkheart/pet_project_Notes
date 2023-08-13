@@ -17,7 +17,6 @@ function App() {
           <Routes>
             <Route path='note/:id' element={<NotePage />} />
           </Routes>
-          <br />
           <Footer />
         </div>
       </div>

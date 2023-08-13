@@ -234,7 +234,7 @@ a {
   width: 100%;
   height: 70vh;
   resize: none;
-  scrollbar-width: none; /* Firefox */
+  scrollbar-width: none;
 }
 
 .note textarea:active,
@@ -245,4 +245,28 @@ a {
 
 .note textarea::-webkit-scrollbar {
   display: none;
+}
+
+.note-title textarea {
+  background-color: var(--color-white);
+  color: var(--color-main);
+  font-size: 32px;
+  border: none;
+  padding: 16px 12px;
+  width: 100%;
+  height: auto;
+  resize: none;
+  scrollbar-width: none;
+}
+
+
+.notes-list-item-title {
+    transition: all 0.2s ease-in-out;
+    font-size: 20px;
+    color: var(--color-main);
+}
+
+.notes-list-item-title:hover {
+  background-color: var(--color-bg);
+  cursor: pointer;
 }
