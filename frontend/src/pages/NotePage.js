@@ -76,9 +76,10 @@ const NotePage = (props) => {
 
             </div>
             <div className='note-title'>
-                <textarea maxLength={50} onChange={(e) => { setNote({ ...note, 'title': e.target.value }) }} defaultValue={note?.title}></textarea>
+                <textarea maxLength={50} onChange={(e) => { setNote({ ...note, 'title': e.target.value }) }} defaultValue={note?.title} placeholder='Title'></textarea>
             </div>
-            <textarea onChange={(e) => { setNote({ ...note, 'text': e.target.value }) }} defaultValue={note?.text}></textarea>
+            <hr></hr>
+            <textarea onChange={(e) => { setNote({ ...note, 'text': e.target.value }) }} defaultValue={note?.text} placeholder='Text'></textarea>
         </div>
     )
 }

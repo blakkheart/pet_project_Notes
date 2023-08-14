@@ -8,7 +8,7 @@ import { BrowserRouter, Switch, Route, Routes } from 'react-router-dom';
 function App() {
   return (
     <BrowserRouter>
-      <div className='container dark'>
+      <div className='container'>
         <div className="App">
           <Header />
           <Routes>
